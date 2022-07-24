@@ -14,6 +14,7 @@ public class Main extends Application {
 			Scene scene = new Scene(root,400,400);
 		
 			primaryStage.setScene(scene);
+			primaryStage.setTitle("Ariyan's project");
 			primaryStage.show();
 		} catch(Exception e) {
 			e.printStackTrace();
